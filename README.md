@@ -37,9 +37,10 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    will have 7 redshifts in the output directory.
 
 5. Read the files (the default grid number is 256x256, so each binary can
-    be read into a 2D array; see the manual). Make a plot like the one below.
+   be read into a 2D array; see the manual). Make a plot like the one below.
+   You can take a look at the ``visualization/Plot_slice.m`` file for some hints.
 
-6. For the first simulation, you use the default cosmological parameters. Now
+7. For the first simulation, you use the default cosmological parameters. Now
    you need to run two more simulations by changing the ``main/parameters.f90``
    file. You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``), 
    for ``universe2``, you need to change the ``s8`` parameter to 0.9 while
@@ -47,7 +48,7 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    change the ``omega_cdm'' parameter to 0.30 while keeping everything else
    fixed (keeping s8 as 0.8). Make similar plots as that for ``universe1''.
 
-7. ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
+8. ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
    is, the more clumpy the Universe becomes. ``omega_cdm`` is the cold dark matter
    density in the unit of the critical density, the higher it is, the denser the
    Universe becomes. You need to examine the three figures to describe how the
