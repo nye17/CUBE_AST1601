@@ -62,7 +62,7 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    file each time before repeating the steps from 4-6. 1) You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``);
    2) For ``universe2``, you need to change the ``s8`` parameter to 0.9 while
    keeping everything else fixed; 3) For ``universe3``, you need to
-   change the ``omega_cdm'' parameter to 0.30 while keeping everything else
+   change the ``omega_cdm`` parameter to 0.30 while keeping everything else
    fixed (keeping s8 as 0.8); 4) Make two similar figures as that for ``universe1''.
 
 9. Back to physics: ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
