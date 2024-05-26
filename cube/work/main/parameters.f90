@@ -1,7 +1,7 @@
 module parameters
   implicit none
   save
-  ! output directory
+  ! output directory (change this if you don't want your data overwritten!!!)
   character(*),parameter :: opath='../../output/universe1/'
 
   ! simulation parameters
