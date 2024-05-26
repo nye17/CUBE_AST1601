@@ -40,9 +40,7 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    be read into a 2D array; see the manual). Make a plot exactly the same as the one below (except for the density field from the simulation).
    You can take a look at the ``visualization/Plot_slice.m`` file for some hints.
 
-
-.. figure:: https://github.com/nye17/CUBE_AST1601/blob/main/density_evolution.png
-   :scale: 80%
+   ![alt text]([http://url/to/img.png](https://github.com/nye17/CUBE_AST1601/blob/main/density_evolution.png))
    Fig. 1 : The evolution of a Universe simulated by CUBE.
    
 
