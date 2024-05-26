@@ -65,12 +65,13 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    change the ``omega_cdm`` parameter to 0.30 while keeping everything else
    fixed (keeping s8 as 0.8); 4) Make two similar figures as that for ``universe1''.
 
-9. Back to physics: ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
-   is, the more clumpy the Universe becomes. ``omega_cdm`` is the cold dark matter
-   density in units of the ``critical density``(what is it? google it!), the higher it is, the denser the
-   Universe becomes. You need to examine the three figures and describe how the
-   evolution of the Universe changes after your modified one of the two parameters
-   and why.
+9. Back to physics: ``s8`` is ``\sigma_8``, the normalization for the ``matter power spectrum`` (we briefly
+   mentioned the matter power spectrum when talking about the ``large scale structure``). The higher ``\sigma_8``
+   is, the more clumpy the dark matter distribution is. ``omega_cdm`` is the cold dark matter
+   density in units of the ``critical density``(what is it?), the higher ``omega_cdm`` is, the more dark matter there is in the Universe.
+   You need to examine the three figures (mark clearly which is fiducial, which is high-s8, and which is high-omega_cdm) and
+   describe how the evolution of the Universe changes after your modified one of the two parameters
+   and why. You can also try to modifiy other cosmological parameters in ``parameters.f90`` and see how it affects the growth of the Universe.
 
 
 
