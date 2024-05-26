@@ -46,19 +46,19 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    Fig. 1 : The evolution of a Universe simulated by CUBE.
    
 
-7. For the first simulation, you use the default cosmological parameters. Now
+7. For the first simulation, you have used the default cosmological parameters for ``universe1``. Now
    you need to run two more simulations by changing the ``main/parameters.f90``
-   file. You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``), 
-   for ``universe2``, you need to change the ``s8`` parameter to 0.9 while
-   keeping everything else fixed; Meanwhile for ``universe3``, you need to
+   file each time before repeating the steps from 4-6. 1) You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``);
+   2) For ``universe2``, you need to change the ``s8`` parameter to 0.9 while
+   keeping everything else fixed; 3) For ``universe3``, you need to
    change the ``omega_cdm'' parameter to 0.30 while keeping everything else
-   fixed (keeping s8 as 0.8). Make similar plots as that for ``universe1''.
+   fixed (keeping s8 as 0.8); 4) Make two similar figures as that for ``universe1''.
 
-8. ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
+9. Back to physics: ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
    is, the more clumpy the Universe becomes. ``omega_cdm`` is the cold dark matter
-   density in the unit of the critical density, the higher it is, the denser the
-   Universe becomes. You need to examine the three figures to describe how the
-   evolution of the Universe changes after your change one of the two parameters
+   density in units of the ``critical density``(what is it? google it!), the higher it is, the denser the
+   Universe becomes. You need to examine the three figures and describe how the
+   evolution of the Universe changes after your modified one of the two parameters
    and why.
 
 
