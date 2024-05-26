@@ -40,6 +40,8 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    be read into a 2D array; see the manual). Make a plot like the one below.
    You can take a look at the ``visualization/Plot_slice.m`` file for some hints.
 
+   https://github.com/nye17/CUBE_AST1601/blob/main/density_evolution.png
+
 7. For the first simulation, you use the default cosmological parameters. Now
    you need to run two more simulations by changing the ``main/parameters.f90``
    file. You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``), 
