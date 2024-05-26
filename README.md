@@ -37,10 +37,14 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    will have 7 redshifts in the output directory.
 
 5. Read the files (the default grid number is 256x256, so each binary can
-   be read into a 2D array; see the manual). Make a plot like the one below.
+   be read into a 2D array; see the manual). Make a plot exactly the same as the one below (except for the density field from the simulation).
    You can take a look at the ``visualization/Plot_slice.m`` file for some hints.
 
-   https://github.com/nye17/CUBE_AST1601/blob/main/density_evolution.png
+
+.. figure:: https://github.com/nye17/CUBE_AST1601/blob/main/density_evolution.png
+   :scale: 80%
+   Fig. 1 : The evolution of a Universe simulated by CUBE.
+   
 
 7. For the first simulation, you use the default cosmological parameters. Now
    you need to run two more simulations by changing the ``main/parameters.f90``
