@@ -15,15 +15,15 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
 1. Once you finished setting up your Linux/Unix environment, clone or
    download the CUBE_AST1601 code into your local directory.
 
-2. Follow the manual under the ``manual'' directory to install the necessary
+2. Follow the manual under the ``manual`` directory to install the necessary
    fortran compiler and FFTW libraries into your OS. You probably need to seek
    help from the internet or those who have experience with programming to solve
    all the issues along the way. This is the whole point of the project ---
    solving practical problems to set up a correct programming environment for
    doing research.
 
-3. Modify the ``utilities/module_load_brew.sh'' file to adapt to your own
-   computer, and follow each step in the ``main/AST1601.sh'' file to generate
+3. Modify the ``utilities/module_load_brew.sh`` file to adapt to your own
+   computer, and follow each step in the ``main/AST1601.sh`` file to generate
    the initial condition (ic.x), run the main simulation (main.x), and convert
    the simulation results from particle positions into a cold dark matter
    density field (cicpower.x). Whenever you encounter an error, modify and
