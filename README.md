@@ -27,9 +27,9 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    the initial condition (ic.x), run the main simulation (main.x), and convert
    the simulation results from particle positions into a cold dark matter
    density field (cicpower.x). Whenever you encounter an error, modify and
-   ``source'' the module_load_brew.sh file, and try again, until you computer
+   ``source`` the module_load_brew.sh file, and try again, until you computer
    successfully finish running a simulation and saving all the files under the
-   ``output/universe1/'' directory.
+   ``output/universe1/`` directory.
 
 4. Find the "X.XXX_delta_c_1.bin" files output by CUBE. Those are the
    smoothed density fields of the large-scale structures in binary data
@@ -40,15 +40,15 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
     be read into a 2D array; see the manual). Make a plot like the one below.
 
 6. For the first simulation, you use the default cosmological parameters. Now
-   you need to run two more simulations by changing the ``main/parameters.f90''
-   file. You need to change the output directory ``opath'' to universe2 (or universe3), 
-   for ``universe2'', you need to change the ``s8'' parameter to 0.9 while
-   keeping everything else fixed; Meanwhile for ``universe3'', you need to
+   you need to run two more simulations by changing the ``main/parameters.f90``
+   file. You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``), 
+   for ``universe2``, you need to change the ``s8`` parameter to 0.9 while
+   keeping everything else fixed; Meanwhile for ``universe3``, you need to
    change the ``omega_cdm'' parameter to 0.30 while keeping everything else
    fixed (keeping s8 as 0.8). Make similar plots as that for ``universe1''.
 
-7. s8 is sigma8, the normalization for the matter power spectrum. The higher it
-   is, the more clumpy the Universe becomes. omega_cdm is the cold dark matter
+7. ``s8`` is ``\sigma_8``, the normalization for the matter power spectrum. The higher it
+   is, the more clumpy the Universe becomes. ``omega_cdm`` is the cold dark matter
    density in the unit of the critical density, the higher it is, the denser the
    Universe becomes. You need to examine the three figures to describe how the
    evolution of the Universe changes after your change one of the two parameters
