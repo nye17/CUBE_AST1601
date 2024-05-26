@@ -95,7 +95,7 @@ module parameters
   real, parameter :: omega_u = Nur*(7.*pi**4/180.)*Tur*(Tur/Tcnb)**3./94.1/h0**2 ! ur energy
   real, parameter :: omega_r = omega_g+omega_u ! total radiation
 
-  real, parameter :: omega_cdm = 0.2538 ! cdm energy
+  real, parameter :: omega_cdm = 0.2500 ! cdm energy
   real, parameter :: omega_bar = 0.0462 ! baryon energy, goes into cdm
   real, parameter :: omega_mhd = 0.0 ! mhd energy, evolved separately
   real, parameter :: omega_nu = sum( Mnu*(Tnu/Tcnb)**3 )/94.1/h0**2 ! nu energy
