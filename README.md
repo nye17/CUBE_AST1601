@@ -8,9 +8,9 @@ students of the SJTU AST1601 class.
 
 
 This project requires you to learn how to use Linux or Unix operation
-system (you need to install a virtual machine or use the Window Subsystem
-for Linux if you use Windows), install computational libraries like the
-FFTW, compile Fortran code, and run a cosmological N-body simulation.
+system (you need to install a virtual machine or use the ``Window Subsystem
+for Linux`` if you use Windows; For MacOS you are already good to go), install 
+computational libraries like the FFTW, compile Fortran code, and run a cosmological N-body simulation.
 
 1. Once you finished setting up your Linux/Unix (included in Mac OS)
    environment, clone or download the CUBE_AST1601 code into your local
@@ -39,16 +39,16 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    the initial condition (ic.x), run the main simulation (main.x), and convert
    the simulation results from particle positions into a cold dark matter
    density field (cicpower.x). Whenever you encounter an error, modify and
-   ``source`` the module_load_brew.sh file, and try again, until you computer
-   successfully finish running a simulation and saving all the files under the
-   ``output/universe1/`` directory.
+   ``source`` (what is it? you need to find out yourself) the ``module_load_brew.sh file``,
+   and try again, until your computer successfully finish running a simulation and saving
+   all the files under the ``output/universe1/`` directory.
 
-5. Find the "X.XXX_delta_c_1.bin" files output by CUBE. Those are the
+6. Find the "X.XXX_delta_c_1.bin" files output by CUBE. Those are the
    smoothed density fields of the large-scale structures in binary data
    format. "X.XXX" indicates the redshift of the output. By default you
    will have 7 redshifts in the output directory.
 
-6. Read the files (the default grid number is 256x256, so each binary can be
+7. Read the files (the default grid number is 256x256, so each binary can be
    read into a 2D array; see the manual). Make a plot exactly the same as the
    one below (except for the density field from the simulation).  You can take a
    look at the ``visualization/Plot_slice.m`` file for some hints.
@@ -57,7 +57,7 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    Fig. 1 : The evolution of a Universe simulated by CUBE.
    
 
-7. For the first simulation, you have used the default cosmological parameters for ``universe1``. Now
+8. For the first simulation, you have used the default cosmological parameters for ``universe1``. Now
    you need to run two more simulations by changing the ``main/parameters.f90``
    file each time before repeating the steps from 4-6. 1) You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``);
    2) For ``universe2``, you need to change the ``s8`` parameter to 0.9 while
