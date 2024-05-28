@@ -69,7 +69,7 @@ Please follow the 10 steps below carefully.
    2) For ``universe2``, you need to change the ``s8`` parameter to 0.9 while
    keeping everything else fixed; 3) For ``universe3``, you need to
    change the ``omega_cdm`` parameter to 0.30 while keeping everything else
-   fixed (keeping s8 as 0.8); 4) Make two similar figures as that for ``universe1''.
+   fixed (keeping s8 as 0.8); 4) Make two similar figures as that for ``universe1``.
 
 9. Back to physics: ``s8`` is ``\sigma_8``, the normalization for the ``matter power spectrum`` (we briefly
    mentioned the matter power spectrum when talking about the ``large scale structure``). The higher ``\sigma_8``
