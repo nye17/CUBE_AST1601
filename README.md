@@ -72,5 +72,10 @@ FFTW, compile Fortran code, and run a cosmological N-body simulation.
    evolution of the Universe changes after your modified one of the two parameters
    and why.
 
+10. 你最终的书面大作业报告必须包含：a) 系统的安装步骤，编译器的调试过程，以及程序的运行步骤，并包含必要的debug过程；b）三个不同宇宙学模型下的simulation在7个不同红移处的大尺度结构，画成7X3的一张pdf大图，每行代表某一个宇宙学模型的演化，并清晰标记你改变的宇宙学参数，确保你的simulation的分辨率达到nc>64；c）描述并解释你看到的三个不同宇宙学演化的差别，调研并解释sigma8和Omega_cdm的数学定义和物理意义。
+
+
+Enjoy simulating your own Universes!
+
 
 
