@@ -6,11 +6,17 @@ This is a simulation code forked and simplified from CUBE_XMU
 showcasing the simple steps of running cosmological simulations to the
 students of the SJTU AST1601 class.
 
+The project report should be sent to the instructor's email address with the
+title: "AST1601+姓名+bonus project"，and your report should be named
+"project3_姓名.pdf". The deadline for submission is by the end of June the 16th,
+2024 (Sunday of the 17th week).
+
 
 This project requires you to learn how to use Linux or Unix operation
 system (you need to install a virtual machine or use the ``Window Subsystem
 for Linux`` if you use Windows; For MacOS you are already good to go), install 
 computational libraries like the FFTW, compile Fortran code, and run a cosmological N-body simulation.
+Please follow the 10 steps below carefully.
 
 1. Once you finished setting up your Linux/Unix (included in Mac OS)
    environment, clone or download the CUBE_AST1601 code into your local
