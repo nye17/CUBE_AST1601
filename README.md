@@ -46,7 +46,7 @@ Please follow the 10 steps below carefully.
    the simulation results from particle positions into a cold dark matter
    density field (cicpower.x). Whenever you encounter an error, modify and
    ``source`` (what is it? you need to find out yourself) the ``module_load_brew.sh file``,
-   and try again, until your computer successfully finish running a simulation and saving
+   and try again, until your computer successfully finishes running a simulation and saving
    all the files under the ``output/universe1/`` directory.
 
 6. Find the "X.XXX_delta_c_1.bin" files output by CUBE. Those are the
