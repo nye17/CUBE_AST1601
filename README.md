@@ -63,7 +63,7 @@ Please follow the 9 steps below carefully.
    Fig. 1 : The evolution of a Universe simulated by CUBE.
    
 
-7. For the first simulation, you have used the default cosmological parameters for ``universe1`` (omega_cdm=0.3, s8=0.8). Now
+7. For the first simulation, you have used the default cosmological parameters for ``universe1`` (omega_cdm=0.25, s8=0.8). Now
    you need to run two more simulations by changing the ``main/parameters.f90``
    file each time before repeating the steps from 4-6. 1) You need to change the output directory ``opath`` to ``universe2`` (or ``universe3``);
    2) For ``universe2``, you need to change the ``s8`` parameter to 0.9 while
